@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CurrentWeather from "../../components/CurrentWeather/CurrentWeather";
+import ForecastContainer from "../ForecastContainer/ForecastContainer";
 import "./Home.scss"
 
 const Home = () => {
@@ -47,8 +48,13 @@ const Home = () => {
   return (
     <div className={"home " + timeOfDay}>
       <h1 className="home__title">Good {timeOfDay}</h1>
-      <CurrentWeather weather={weather} />
-      
+      <div className="home__weather">
+        <h2 className="home__title">Weather</h2>
+        <CurrentWeather weather={weather} />
+        <div>
+          <ForecastContainer forecast={weather?.forecast} currEpoch={weather?.current?.last_updated_epoch} />
+        </div>
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const CurrentWeather = ({weather}) => {
         <WeatherIcon current={weather?.current} />
       </div>
       <div className='current-weather__temp'>
-        <p>{weather?.current?.temp_c}°C</p>
+        <p className='current-weather__text'>{weather?.current?.temp_c}°C</p>
       </div>
       
     </div>
