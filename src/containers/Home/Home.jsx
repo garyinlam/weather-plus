@@ -33,7 +33,7 @@ const Home = () => {
 
   const getWeather = async () => {
     const res = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${coords[0]},${coords[1]}`
+      `https://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${coords[0]},${coords[1]}`
     );
     const data = await res.json();
     setWeather(data);
