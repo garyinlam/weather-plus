@@ -1,0 +1,9 @@
+@use "../../assets/sass/variables" as *;
+
+
+.to-do-list{
+  margin: 10px;
+  &__single{
+    margin-left: 30px;
+  }
+}

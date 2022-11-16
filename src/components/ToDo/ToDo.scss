@@ -1,0 +1,8 @@
+@use "../../assets/sass/variables" as *;
+
+.to-do{
+  background-color: $colour-white;
+  margin: 10px 30px;
+  padding: 15px;
+  border-radius: 10px;
+}
