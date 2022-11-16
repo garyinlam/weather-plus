@@ -10,3 +10,7 @@ This project uses the [Weather API](https://www.weatherapi.com/) and user locati
 ## Technologies used
 
  - React.js
+
+
+### Screenshot
+![Screenshot](/screenshots/Screenshot%202022-11-16%20121400.jpg)
