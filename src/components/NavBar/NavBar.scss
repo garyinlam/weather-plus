@@ -1,0 +1,12 @@
+@use "../../assets/sass/variables" as *;
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  background-color: $colour-afternoon;
+  position: sticky;
+  top: 0;
+  &__link{
+    padding: 10px;
+  }
+}

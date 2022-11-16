@@ -1,19 +1,22 @@
+@use "../../assets/sass/variables" as *;
+
+
 .morning{
-  background-color: rgb(124, 194, 255);
+  background-color: $colour-morning;
 }
 
 .afternoon{
-  background-color: rgb(191, 225, 255);
+  background-color: $colour-afternoon;
 }
 
 .evening{
-  background-color: rgb(152, 159, 255);
+  background-color: $colour-evening;
 }
 
 .night{
-  background-color: rgb(5, 7, 48);
+  background-color: $colour-night;
   .home__title{
-    color: white;
+    color: $colour-white;
   }
 }
 

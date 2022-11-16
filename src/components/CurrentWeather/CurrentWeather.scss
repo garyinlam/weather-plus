@@ -1,5 +1,7 @@
+@use "../../assets/sass/variables" as *;
+
 .current-weather {
-  background-color: white;
+  background-color: $colour-white;
   width: fit-content;
   padding: 10px;
   border-radius: 15px;

@@ -1,11 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@use "./assets/sass/base";
 
 .app {
   display: flex;
   align-items: stretch;
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 95vw;
 }

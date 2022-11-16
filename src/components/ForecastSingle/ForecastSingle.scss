@@ -1,6 +1,9 @@
+@use "../../assets/sass/variables" as *;
+
 .forecast-single{
-  background-color: white;
+  background-color: $colour-white;
   border-radius: 15px;
   padding: 10px;
   margin: 5px;
+  width: 150px;
 }

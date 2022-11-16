@@ -10,7 +10,7 @@ const ForecastSingle = ({forecastHour}) => {
       <div className='forecast-single__weather'>
         <p className='forecast-single__text'>{forecastHour?.temp_c}°C</p>
         <p className='forecast-single__text'>Chance of rain:</p>
-        <p className='forecast-single__text'>{forecastHour?.chance_of_rain}</p>
+        <p className='forecast-single__text'>{forecastHour?.chance_of_rain}%</p>
       </div>
     </div>
   )
