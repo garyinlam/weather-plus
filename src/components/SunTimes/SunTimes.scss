@@ -1,0 +1,16 @@
+@use "../../assets/sass/variables" as *;
+
+
+.sun-times{
+  background-color: $colour-white;
+  display: flex;
+
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  gap: 10px;
+
+  &__image{
+    height: 100px;
+  }
+}

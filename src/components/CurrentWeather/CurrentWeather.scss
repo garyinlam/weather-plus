@@ -7,4 +7,13 @@
   border-radius: 15px;
   text-align: center;
   margin: 10px;
+  display: flex;
+  gap: 15px;
+
+  &__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

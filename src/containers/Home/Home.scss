@@ -25,4 +25,9 @@
   &__title{
     padding: 15px;
   }
+
+  &__top{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
